@@ -10,7 +10,6 @@ function Calculator(){
   let num1 = Number(prompt("Enter your first number :"))
   let num2 = Number(prompt("Enter your second number :"))
   
-
   switch (op) {
     case "+":
       Sum(num1, num2);

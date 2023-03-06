@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Calculator</title>
 </head>
 <body>
@@ -11,23 +12,48 @@
     <h1>My Awesome Calculator</h1>
     <button onclick="Calculator();">Start here!</button>
   </header>
-
   <main>
     <ol>
-      <li>Click on the button to start the calculator.</li>
-      <li>Enter the numbers in the prompts.</li>
-      <li>The results should be displayed in the results zone!</li>
+      <li>Enter desired operation.</li>
+      <li>After succesful entry, confirm with the press of "="</li>
+      <li>The results should be displayed!</li>
     </ol>
-
     <h2>Results</h2>
-    <div id="results">
+    <div id="results"></div>
 
+    <div class="calc_body">
+        <div class="result">
+            <p id="result">0</p>
+        </div>
+        <div class="buttons">
+            <button>+/-</button>
+            <button>%</button>
+            <button>C</button>
+            <button>DEL</button>
+
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>/</button>
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+
+            <button>.</button>
+            <button>0</button>
+            <button class="equal">=</button>
+            <button>-</button>  
+        </div>
     </div>
-
   </main>
-
   <footer>
-  
   </footer>
   <script src="script/calculator.js"></script>
 </body>
